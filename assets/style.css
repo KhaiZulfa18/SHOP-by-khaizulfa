@@ -1,0 +1,47 @@
+h1{color: green;}
+h2{color: black;}
+h3{background-color: green;}
+p{font-size: 18px;}
+a{text-decoration:none;}
+a:active{color:white;}
+hr{color: green;}
+th{height:40px;}
+table, th, td, {border: none; right;}
+.btn{
+	background-color: green;
+	color: white;
+	width:150px;
+	height:50px;
+	font-size:15px;
+}
+span{
+	color: red;
+	font-size: 17px;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {display: inline;}
+
+ul.pagination li a{
+	background-color: green;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {
+	background-color: 	#E6E6FA;
+	color: black;
+}
