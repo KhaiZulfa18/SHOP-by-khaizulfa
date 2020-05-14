@@ -70,6 +70,7 @@
                             </div>
                             <div class="text-center mt-3">
                                 <h4>Belum punya akun? <a href="<?php echo base_url('useraccount/register'); ?>">Daftar disini</a></h4>
+                                <h5>Lupa Password? <a href="<?php echo base_url('resetpassword'); ?>">Reset</a></h5>
                             </div>
                         </div>
                         <div class="col-lg-3">

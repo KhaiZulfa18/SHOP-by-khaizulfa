@@ -1,9 +1,9 @@
-<div class="header-area transparent-bar ptb-30">
+<div class="header-area transparent-bar ptb-20">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-3 col-4">
                 <div class="logo-small-device">
-                    <a href="<?php echo base_url('shop/home'); ?>"><img alt="<?php echo $profiltoko->nama ?>" src="<?php echo base_url('images/shop_profil/'.$profiltoko->logo);?>" height="60px"></a>
+                    <a href="<?php echo base_url('shop/home'); ?>"><img alt="<?php echo $profiltoko->nama ?>" src="<?php echo base_url('images/shop_profil/'.$profiltoko->logo);?>" height="50px"></a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-9 col-8">

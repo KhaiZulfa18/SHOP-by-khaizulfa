@@ -109,7 +109,7 @@
             </div>
             <div class="col-md-4 col-12">
                 <div class="footer-payment-method">
-                    <a href="#"><img alt="" src="assets/img/icon-img/payment.png"></a>
+                    <!-- <a href="#"><img alt="" src="assets/img/icon-img/payment.png"></a> -->
                 </div>
             </div>
         </div>

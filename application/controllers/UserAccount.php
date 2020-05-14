@@ -22,7 +22,7 @@ class UserAccount extends CI_Controller {
         $data['profiltoko'] = $this->administator->get_profiltoko()->row();
         $data['datakategori'] = $this->administator->get_data_where($where, 'tbl_kategori')->result();
         $data['dataslider'] = $this->administator->get_data_where($where, 'tbl_slider')->result();
-        $data['headertitle'] = 'Shop';
+        $data['headertitle'] = 'Login';
         $data['menu'] = 'home';
 
         $id_user = $this->session->userdata('id_user');

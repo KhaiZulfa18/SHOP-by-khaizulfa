@@ -346,4 +346,20 @@ class Administator extends CI_Model{
 		$this->db->where('YEAR(tgl_penjualan)',$tahun);
 		return $this->db->get('tbl_penjualan')->num_rows();
 	}
+
+	function cek_token($token,$url){
+		$where = array(
+			'token' => $token,
+			'url' => $url
+		);
+		$this->db->where($where);
+		return $this->db->get('tbl_tokens');
+	}
+
+	function update_token($token){
+		$where['token'] = $token;
+		$update['status'] = 2;
+		$this->db->where($where);
+		$this->db->update('tbl_tokens', $update);
+	}
 }
