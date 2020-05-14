@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2020 at 09:39 AM
+-- Generation Time: May 14, 2020 at 09:19 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -363,6 +363,30 @@ INSERT INTO `tbl_slider` (`id`, `text1`, `text2`, `picture`, `status`, `waktu`) 
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_tokens`
+--
+
+CREATE TABLE `tbl_tokens` (
+  `id` int(11) NOT NULL,
+  `id_user` varchar(15) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `token` text NOT NULL,
+  `url` text NOT NULL,
+  `status` int(5) NOT NULL,
+  `created_at` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_tokens`
+--
+
+INSERT INTO `tbl_tokens` (`id`, `id_user`, `email`, `token`, `url`, `status`, `created_at`) VALUES
+(31, 'USER-013', 'khaizulfa18@gmail.com', 'HVP4KeW3', '3RAwqOKkPvis0cGg', 1, '0000-00-00'),
+(32, 'USER-013', 'khaizulfa18@gmail.com', 'PuqpQvzC', '8h4VL2rDJeoWMYv1', 2, '0000-00-00');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_user`
 --
 
@@ -464,6 +488,12 @@ ALTER TABLE `tbl_slider`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tbl_tokens`
+--
+ALTER TABLE `tbl_tokens`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
@@ -538,6 +568,12 @@ ALTER TABLE `tbl_profil`
 --
 ALTER TABLE `tbl_slider`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `tbl_tokens`
+--
+ALTER TABLE `tbl_tokens`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `tbl_user`
