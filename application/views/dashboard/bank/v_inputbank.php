@@ -51,15 +51,15 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="nama">Nama Bank</label>
-                    <input type="text" class="form-control col-8" id="nama_bank" name="nama_bank" placeholder="Nama Bank" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="nama_bank" name="nama_bank" placeholder="Nama Bank" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="nama">Atas Nama</label>
-                    <input type="text" class="form-control col-8" id="atas_nama" name="atas_nama" placeholder="Atas Nama" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="atas_nama" name="atas_nama" placeholder="Atas Nama" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="nama">No. Rekening</label>
-                    <input type="number" class="form-control col-8" id="no_rek" name="no_rek" placeholder="No. Rekening" autocomplete="off">
+                    <input type="number" class="form-control col-lg-8 col-md-12" id="no_rek" name="no_rek" placeholder="No. Rekening" autocomplete="off">
                   </div>
                 </div>
                 <!-- /.card-body -->

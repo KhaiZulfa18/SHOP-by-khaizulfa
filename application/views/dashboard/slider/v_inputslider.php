@@ -51,11 +51,11 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="nama">Text 1</label>
-                    <input type="text" class="form-control col-8" id="text1" name="text1" placeholder="Text 1" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="text1" name="text1" placeholder="Text 1" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Text 2</label>
-                    <input type="text" class="form-control col-8" id="text2" name="text2" placeholder="Text 2" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="text2" name="text2" placeholder="Text 2" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Picture</label>

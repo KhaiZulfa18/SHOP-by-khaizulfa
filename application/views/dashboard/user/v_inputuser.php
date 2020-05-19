@@ -51,27 +51,27 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="nama">Nama</label>
-                    <input type="text" class="form-control col-8" id="nama" name="nama" placeholder="Nama" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="nama" name="nama" placeholder="Nama" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Username</label>
-                    <input type="text" class="form-control col-8" id="username" name="username" placeholder="Username" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="username" name="username" placeholder="Username" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Password</label>
-                    <input type="password" class="form-control col-8" id="password" name="password" placeholder="Password">
+                    <input type="password" class="form-control col-lg-8 col-md-12" id="password" name="password" placeholder="Password">
                   </div>
                   <div class="form-group">
                     <label for="">Email</label>
-                    <input type="text" class="form-control col-8" id="email" name="email" placeholder="Email" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="email" name="email" placeholder="Email" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">No. Telepon</label>
-                    <input type="number" class="form-control col-8" id="telepon" name="telepon" placeholder="Telepon" autocomplete="off">
+                    <input type="number" class="form-control col-lg-8 col-md-12" id="telepon" name="telepon" placeholder="Telepon" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Jenis Kelamin</label>
-                    <select id="gender" name="gender" class="form-control col-8">
+                    <select id="gender" name="gender" class="form-control col-lg-8 col-md-12">
                       <option value="">- Jenis Kelamin -</option>
                       <option value="1">Laki-laki</option>
                       <option value="2">Perempuan</option>
@@ -79,13 +79,13 @@
                   </div>
                   <div class="form-group">
                     <label for="">Alamat</label>
-                    <textarea class="form-control col-8" id="alamat" name="alamat" placeholder="Alamat" autocomplete="off"></textarea>
+                    <textarea class="form-control col-lg-8 col-md-12" id="alamat" name="alamat" placeholder="Alamat" autocomplete="off"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Foto</label>
                     <div class="input-group">
                       <div class="custom-file">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-12">
                           <input type="file" class="custom-file-input" id="picture" name="picture">
                           <label class="custom-file-label" for="foto">Choose file</label>
                         </div>

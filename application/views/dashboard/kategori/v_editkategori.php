@@ -52,16 +52,16 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="nama">ID Kategori</label>
-                    <input type="text" class="form-control col-8" id="id_kategori" name="id_kategori" autocomplete="off" value="<?php echo $id_kategori; ?>" disabled>
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="id_kategori" name="id_kategori" autocomplete="off" value="<?php echo $id_kategori; ?>" disabled>
                   </div>
                   <div class="form-group">
                     <label for="nama">Nama Kategori</label>
-                    <input type="text" class="form-control col-8" id="nama_ktg" name="nama_ktg" placeholder="Nama Kategori" autocomplete="off" value="<?php echo $nama_ktg; ?>">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="nama_ktg" name="nama_ktg" placeholder="Nama Kategori" autocomplete="off" value="<?php echo $nama_ktg; ?>">
                     <label class="text-muted">*Otomatis Huruf Kapital</label>
                   </div>
                   <div class="form-group">
                     <label for="nama">URL Kategori</label>
-                    <input type="text" class="form-control col-8" id="url_ktg" name="url_ktg" placeholder="URL Kategori" autocomplete="off" value="<?php echo $url_ktg; ?>">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="url_ktg" name="url_ktg" placeholder="URL Kategori" autocomplete="off" value="<?php echo $url_ktg; ?>">
                     <label class="text-muted">**Apabila Tidak Diisi, Akan Otomatis Sama Dengan Nama Kategori</label>
                   </div>
                 </div>

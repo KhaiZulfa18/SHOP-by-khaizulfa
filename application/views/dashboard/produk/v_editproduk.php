@@ -52,11 +52,11 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="nama">Item ID</label>
-                    <input type="text" class="form-control col-8" id="id_produk" name="id_produk" value="<?php echo $id_produk;?>" placeholder="ID Produk" autocomplete="off" disabled>
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="id_produk" name="id_produk" value="<?php echo $id_produk;?>" placeholder="ID Produk" autocomplete="off" disabled>
                   </div>
                   <div class="form-group">
                     <label for="nama">Nama Produk</label>
-                    <input type="text" class="form-control col-8" id="nama_produk" name="nama_produk" value="<?php echo $nama_produk;?>" placeholder="Nama Produk" autocomplete="off">
+                    <input type="text" class="form-control col-lg-8 col-md-12" id="nama_produk" name="nama_produk" value="<?php echo $nama_produk;?>" placeholder="Nama Produk" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Kategori</label>
@@ -71,21 +71,21 @@
                   </div>
                   <div class="form-group">
                     <label for="">Harga</label>
-                    <input type="number" class="form-control col-8" id="harga" name="harga" value="<?php echo $harga;?>" placeholder="Harga" autocomplete="off">
+                    <input type="number" class="form-control col-lg-8 col-md-12" id="harga" name="harga" value="<?php echo $harga;?>" placeholder="Harga" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Stok</label>
-                    <input type="number" class="form-control col-8" id="stok" name="stok" value="<?php echo $stok;?>" placeholder="Stok" autocomplete="off">
+                    <input type="number" class="form-control col-lg-8 col-md-12" id="stok" name="stok" value="<?php echo $stok;?>" placeholder="Stok" autocomplete="off">
                   </div>
                   <div class="form-group">
                     <label for="">Catatan</label>
-                    <textarea class="form-control col-8" id="catatan" name="catatan" autocomplete="off"><?php echo $catatan;?></textarea>
+                    <textarea class="form-control col-lg-8 col-md-12" id="catatan" name="catatan" autocomplete="off"><?php echo $catatan;?></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Foto **</label>
                     <div class="input-group">
                       <div class="custom-file">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-12">
                           <input type="file" class="custom-file-input" id="picture" name="picture">
                           <label class="custom-file-label" for="picture">Choose file</label>
                         </div>
@@ -96,7 +96,7 @@
                     <label for="exampleInputFile2">Foto 2 **</label>
                     <div class="input-group">
                       <div class="custom-file">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-12">
                           <input type="file" class="custom-file-input" id="picture2" name="picture2">
                           <label class="custom-file-label" for="picture2">Choose file</label>
                         </div>
@@ -107,7 +107,7 @@
                     <label for="exampleInputFile">Foto 3 **</label>
                     <div class="input-group">
                       <div class="custom-file">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-12">
                           <input type="file" class="custom-file-input" id="picture3" name="picture3">
                           <label class="custom-file-label" for="picture3">Choose file</label>
                         </div>
