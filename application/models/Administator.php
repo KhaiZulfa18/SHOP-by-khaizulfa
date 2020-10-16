@@ -362,4 +362,9 @@ class Administator extends CI_Model{
 		$this->db->where($where);
 		$this->db->update('tbl_tokens', $update);
 	}
+
+	function get_data_penjualan($orderby,$ordertype,$table){
+		$this->db->order_by($orderby, $ordertype);
+		return $this->db->get($table);
+	}
 }

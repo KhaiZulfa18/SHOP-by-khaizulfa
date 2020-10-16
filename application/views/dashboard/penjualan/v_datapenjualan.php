@@ -50,13 +50,16 @@
 
                   <input type="hidden" name="base_url" id="base_url" value="<?php echo base_url(); ?>">
 
+                  <div class="col-md-1">
+                    <a href="<?= base_url('export/export_penjualan'); ?>" target="_blank" class="btn btn-md btn-success"><i class="fab fa-excel"></i>Export</a>
+                  </div>
                   <div class="col-md-4">
                     <input type="date" class="form-control" id="start_date" name="start_date" >
                   </div>
                   <div class="col-md-4">
                     <input type="date" class="form-control" id="end_date" name="end_date" placeholder="">
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <input type="text" class="form-control" id="cari" name="cari" placeholder="Search">
                   </div>
                 </div>
